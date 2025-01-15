@@ -9,33 +9,130 @@
 </head>
 <body>
 <div class="resume">
+
     <header>
-        <!-- Profile Photo Section -->
-        <div class="profile-photo">
-            <img src="profile.jpeg" alt="Profile Photo">
-        </div>
+        <div class="columns">
+            <!-- Left Column: Name and Title -->
+            <div class="column-left-header">
+                <br/>
+                <br/>
+                <h1>Georgios Birmpakos</h1>
+                <p>Full Stack Java Developer | Software Engineer </p>
+            </div>
 
-        <!-- Name and Contact Info -->
-        <div class="header-text">
-            <h1>Georgios Birmpakos</h1>
-            <p>Full Stack Java Developer | Data Science Enthusiast</p>
-            <div class="contact-info">
-                <span><i class="fab fa-linkedin"></i> <a
-                        href="https://www.linkedin.com/in/georgiosbirmpakos/"
-                        target="_blank">linkedin.com</a></span> |
-                <span><i class="fab fa-github"></i> 
-				<a href="https://www.github.com/georgiosbirmpakos/" target="_blank">github.com</a></span> |
-                <span><i class="fas fa-map-marker-alt"></i> Athens, Greece</span> 
-				<!-- | <span><i class="fas fa-phone-alt"></i> +30 6989605024</span> |-->
-				<!--<span><i class="fas fa-envelope"></i> gbirmpakos@gmail.com </span>-->
+            <!-- Center Column: Profile Photo -->
+            <div class="column-center-header">
+                <div class="profile-photo">
+                    <img src="profile.jpeg" alt="Profile Photo">
+                </div>
+            </div>
 
+            <!-- Right Column: Contact Info -->
+            <div class="column-right-header">
+                <div class="contact-info">
+                    <ul>
+                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/georgiosbirmpakos/"
+                                                               target="_blank">linkedin.com/in/georgiosbirmpakos/</a></li>
+                        <li><i class="fab fa-github"></i> <a href="https://www.github.com/georgiosbirmpakos/"
+                                                             target="_blank">github.com/georgiosbirmpakos/</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Athens, Greece (EU)</li>
+                        <li><i class="fas fa-phone-alt"></i> +30 6989605024</li>
+                        <li><i class="fas fa-envelope"></i> <a
+                                href="mailto:gbirmpakos@gmail.com">gbirmpakos@gmail.com</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
 
+
     <div class="columns">
         <!-- Left Column -->
         <div class="column-left">
+
+            <section class="experience">
+                <h2>Working Experience</h2>
+
+                <div class="job">
+                    <h3>Full Stack Software Engineer</h3>
+                    <p>Ministry of National Defense | 2019 - Present | Athens, Greece</p>
+                    <ul>
+                        <li> Working on containerizing .war applications currently hosted on Windows servers
+                            to run on Linux machines using Docker
+                        </li>
+                        <li>Introduced GitLab CI/CD pipelines, successfully migrating the entire project
+                            from Jenkins for streamlined automation and deployment
+                        </li>
+                        <li>Updated the Soldier Transfer System (2023) by adding new features</li>
+                        <li>Comprehensive refactored an application to address critical performance bottlenecks and improve its scalability.
+                        </li>
+                        <li>Updated Wildfly server (from 8.1 to 26.1.1), JSF - Primefaces (from 7 to 8) and Java version (from 8 to 11) in two applications.
+                        </li>
+                        <li>Developed an application for internal soldier transfers with point-based evaluation (JSF - EJB - Spring Boot)
+                        </li>
+                        <li>Developed an application for handling criteria for internal personnel transfers (JSF - EJB - Spring Boot)
+                        </li>
+                        <li> Adjusted existing projects to accommodate updates resulting from Oracle SQL version upgrade
+                        </li>
+                        <li>Developed a personnel management and allocation system for international assignments (JSF -
+                            EJB)
+                        </li>
+                        <li>Developed an SSO authentication system based on Keycloak and UI with React</li>
+                        <li>Developed a personnel management system for staff offices based on the
+                            Multilateral Interoperability Programme (MIP) DB specifications (JSF - EJB)
+                        </li>
+                        <li>Developed a personnel allocation system with point-based evaluation for vacation centers
+                            (JSF - EJB)
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Commander of Military Personnel</h3>
+                    <p>Ministry of National Defense | 2013 - 2018 | </p>
+                </div>
+            </section>
+
+            <section class="certifications">
+                <h2>Certifications</h2>
+
+                <p>
+                    <strong>Power BI</strong>, Big Blue Data Academy | 2025 |
+                </p>
+
+                <p>
+                    <strong>Exploratory Data Analysis (EDA)</strong>, Big Blue Data Academy | 2024 |
+                </p>
+
+                <p>
+                    <strong>SQL</strong>, Big Blue Data Academy | 2024 |
+                </p>
+
+                <p>
+                    <strong>Python</strong>, Big Blue Data Academy | 2024 |
+                </p>
+                <p>
+                    <strong>Machine Learning</strong>, Educational Center for Life Long Learning - University of
+                    Patras | 2024 |
+                </p>
+                <p><strong>Big Data Analytics</strong>, Educational Center for Life Long Learning - University of
+                    Patras | 2023 |
+                </p>
+                <p>
+                    <strong>Introduction to Programming with the <u><i>Python</i></u> Language</strong>
+                    , Educational
+                    Center for Life Long Learning - University of Patras </br> | 2023 |
+                </p>
+                <p><strong>General Data Protection Regulation <u><i>(GDPR)</i></u></strong>, National Centre for
+                    Public
+                    Administration & Local Government | 2022 |</p>
+            </section>
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="column-right">
+
             <section class="education">
                 <h2>Education</h2>
 
@@ -68,124 +165,46 @@
 
             <section class="skills">
                 <h2>Skills</h2>
-                <div class="skills-container">
-                    <div class="skill-category">
-                        <h3>Front-end stack</h3>
-                        <p>
-                            JavaServer Faces (JSF) / Primefaces
-                        </p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Back-end stack</h3>
-                            <p>Java, Enterprise Java Beans (EJB), Spring Boot </p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>DB - ORM - Data</h3>
-                            <p>Oracle SQL, MySQL ,JPA ,Hibernate , JSON </p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Development & Operations</h3>
-                        <p> Git - Version Control System (VCS) / Github, Gitlab, Maven, Wildfly - JBoss, Jenkins, Gitlab CI/CD </p>
-                    </div>
-					<div class="skill-category">
-                        <h3>Data Science</h3>
-                        <p> Python , Exploratory Data Analysis (EDA), Power BI, Machine Learning </p>
-                    </div>
-                </div>
+                <ul>
+                    <li>
+                        <strong>Front-end stack</strong> </br>
+                        JavaServer Faces (JSF) / Primefaces
+                    </li>
+                    <li>
+                        <strong>Back-end stack</strong> </br>
+                        Java, Enterprise Java Beans (EJB), Spring Boot
+                    </li>
+                    <li>
+                        <strong>DB - ORM - Data</strong> </br>
+                        Oracle SQL, MySQL ,JPA ,Hibernate , JSON
+                    </li>
+                    <li>
+                        <strong>Development & Operations</strong> </br>
+                        Git - Version Control System (VCS) / Github, Gitlab, Maven, Wildfly - JBoss, Jenkins, Gitlab
+                        CI/CD
+                    </li>
+                    <li>
+                        <strong>Data Science</strong> </br>
+                        Python , Exploratory Data Analysis (EDA), Power BI, Machine Learning
+                    </li>
+                </ul>
             </section>
 
-            <section class="certifications">
-                <h2>Certifications</h2>
-				
-				<p>
-                    <strong>Power BI</strong>, Big Blue Data Academy | 2025 |
-                </p>
-				
-				<p>
-                    <strong>Exploratory Data Analysis (EDA)</strong>, Big Blue Data Academy | 2024 |
-                </p>
-				
-				<p>
-                    <strong>SQL</strong>, Big Blue Data Academy | 2024 |
-                </p>
-				
-				<p>
-                    <strong>Python</strong>, Big Blue Data Academy | 2024 |
-                </p>
-                <p>
-                    <strong>Machine Learning</strong>, Educational Center for Life Long Learning - University of
-                    Patras | 2024 |
-                </p>
-                <p><strong>Big Data Analytics</strong>, Educational Center for Life Long Learning - University of
-                    Patras | 2023 |
-                </p>
-                <p>
-                    <strong>Introduction to Programming with the <u><i>Python</i></u> Language</strong>
-                    , Educational
-                    Center for Life Long Learning - University of Patras </br> | 2023 |
-                </p>
-                <p><strong>General Data Protection Regulation <u><i>(GDPR)</i></u></strong>, National Centre for
-                    Public
-                    Administration & Local Government | 2022 |</p>
-            </section>
-
-        </div>
-
-        <!-- Right Column -->
-        <div class="column-right">
-
-            <section class="experience">
-                <h2>Working Experience</h2>
-
-                <div class="job">
-                    <h3>Full Stack Software Engineer</h3>
-                    <p>Ministry of National Defense | 2019 - Present | Athens, Greece</p>
-                    <ul>
-					    <li> Working on containerizing .war applications currently hosted on Windows servers
-						to run on Linux machines using Docker | 2024 - current |</li>
-					    <li>Introduced GitLab CI/CD pipelines, successfully migrating the entire project
-						from Jenkins for streamlined automation and deployment | 2024 |</li>
-					    <li>Updated the Soldier Transfer System (2023) by adding new features | 2024 |</li>
-					    <li>Comprehensive refactored an application to address critical
-						performance bottlenecks and improve its scalability. | 2024 |</li>
-                        <li>Updated Wildfly server (from 8.1 to 26.1.1), 
-						JSF - Primefaces (from 7 to 8) and Java version (from 8 to 11) in two applications. | 2024 |</li>
-                        <li>Developed an application for internal soldier transfers with point-based evaluation
-                            (JSF - EJB - Spring Boot) | 2023 |
-                        </li>
-                        <li>Developed an application for handling criteria for internal personnel transfers
-                            (JSF - EJB - Spring Boot)| 2023 | </li>
-						<li> Adjusted existing projects to accommodate updates resulting from Oracle SQL version upgrade
-                            | 2022 - 2023 |
-                        </li>
-                        <li>Developed a personnel management and allocation system for international assignments (JSF -
-                            EJB) | 2022 |
-                        </li>
-                        <li>Developed an SSO authentication system based on Keycloak and UI with React | 2021 |</li>
-                        <li>Developed a personnel management system for staff offices based on the
-                            Multilateral Interoperability Programme (MIP) DB specifications (JSF - EJB) |
-                            2020 |
-                        </li>
-                        <li>Developed a personnel allocation system with point-based evaluation for vacation centers
-                            (JSF - EJB) | 2019 |
-                        </li>
-                    </ul>
-                </div>
-				
-                <div class="job">
-                    <h3>Commander of Military Personnel</h3>
-                    <p>Ministry of National Defense | 2013 - 2018 | </p>
-                </div>
-            </section>
-			
-			<section class="languages">
+            <section class="skills">
                 <h2>Data Science Projects</h2>
+                <div class="contact-info">
                     <ul>
-						<li><a href="https://github.com/georgiosbirmpakos/spotify_data_analysis"> Spotify Data Analysis | 2025 | </a href></li>
-						<li><a href="https://github.com/georgiosbirmpakos/Car-Accidents"> USA Car Accidents Analysis | 2024 | </a href></li>
-						<li><a href="https://dione.lib.unipi.gr/xmlui/handle/unipi/16566">Real-time train tracking and anomaly detection system | 2023 | </a href></li>
-
+                        <li><a href="https://github.com/georgiosbirmpakos/spotify_data_analysis"> Spotify Data Analysis
+                            |
+                            2025 | </a></li>
+                        <li><a href="https://github.com/georgiosbirmpakos/Car-Accidents"> USA Car Accidents Analysis |
+                            2024
+                            | </a></li>
+                        <li><a href="https://dione.lib.unipi.gr/xmlui/handle/unipi/16566">Real-time train tracking and
+                            anomaly detection system | 2023 | </a></li>
                     </ul>
+                </div>
+
             </section>
 
             <section class="languages">
